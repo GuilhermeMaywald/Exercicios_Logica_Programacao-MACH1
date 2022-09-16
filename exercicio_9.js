@@ -7,3 +7,10 @@ maiorOuIgual(0, "0") // retornará false
 maiorOuIgual(5, 1) // retornará true
 */
 
+function maiorOuIgual(primerioNumero, segundoNumero) {
+    if (typeof primerioNumero != typeof segundoNumero){
+        return false;
+    } 
+    return primerioNumero > segundoNumero
+}
+alert(maiorOuIgual(4, 2));
