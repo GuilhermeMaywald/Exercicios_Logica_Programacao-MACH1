@@ -5,3 +5,9 @@ Exemplo:
 cumprimentar("Leonardo") // retornará "Olá, Leonardo!"
 cumprimentar("Maria") // retornará "Olá, Maria!"
 */
+
+function cumprimentar(nome){
+    return `Olá, ${nome} !`
+}
+let nome = prompt('Digite seu nome: ');
+alert(cumprimentar(nome));
