@@ -6,3 +6,4 @@ maiorOuIgual(0, 0) // retornará true
 maiorOuIgual(0, "0") // retornará false
 maiorOuIgual(5, 1) // retornará true
 */
+

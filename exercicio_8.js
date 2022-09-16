@@ -17,5 +17,5 @@ calcularMedia([1, 2, 3, 4, 5]) // retornará 3
         totalMedia = numerosUsuario / numerosUsuario.length;
         return totalMedia;
     }
-    console.log(numerosUsuario);
+    console.log(numerosUsuario(totalMedia));
 }
