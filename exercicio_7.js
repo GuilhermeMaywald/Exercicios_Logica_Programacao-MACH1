@@ -9,8 +9,9 @@ simboloMais(4) // retornará "++++"
 function simboloMais(quantidade) {
     let resultado = '';
 
-    for (let i = 0; i <= quantidade; i++) {
+    for (let i = 0; i < quantidade; i++) {
         resultado += '+';
         return resultado;
     }
 }
+alert(simboloMais(resultado));
