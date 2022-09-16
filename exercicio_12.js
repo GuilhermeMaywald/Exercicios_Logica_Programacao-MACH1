@@ -14,3 +14,11 @@ despesasTotais([
 {nome: "Macbook Pro", categoria: "Eletrônicos", preco: 30999.90}
 ]) // retornará “O total de despesas é: R$ 34599.89”
 */
+
+function despesasTotais(itens) {
+    let total = 0;
+    for (let item of itens){
+        total+= item.preco;
+        return total;
+    }
+}
